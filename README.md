@@ -1,5 +1,5 @@
 <!-- ABOUT THE PROJECT -->
-# QrCode App
+# CodePen Clone
 ![demo](image.png)
 
 This project is a web-based code editor inspired by **CodePen**. Built with React and integrated with *Monaco Editor*. The real-time output is displayed below, providing an interactive coding experience.
