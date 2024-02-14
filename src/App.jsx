@@ -1,34 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React from 'react'
+import { Editor } from '@monaco-editor/react'
+const App = () => {
   return (
-    <>
+    <div style={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
+      <div style={{display: 'flex'}}>
+        <Editor height='60vh' defaultLanguage='html' theme='vs-dark' />
+        <Editor height='60vh' defaultLanguage='css' theme='vs-dark' />
+        <Editor height='60vh' defaultLanguage='javascript' theme='vs-dark' />
+      </div>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        output
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
