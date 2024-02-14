@@ -1,8 +1,43 @@
-# React + Vite
+<!-- ABOUT THE PROJECT -->
+# QrCode App
+![demo](image.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a web-based code editor inspired by **CodePen**. Built with React and integrated with *Monaco Editor*. The real-time output is displayed below, providing an interactive coding experience.
 
-Currently, two official plugins are available:
+Use the `README.md` to get started.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- BUILT WITH -->
+# Built With
+
+The Tech Stacks used are:
+
+<div align="center">
+  <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=react" />
+  </a>
+</div>
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Chetan3327/code-pen-clone.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd code-pen-clone
+   ```
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+<!-- CONTACT -->
+# Contact
+
+Name: Chetan Chauhan - chauhanchetan12789@gmail.com
+
+Project Link: https://code-pen-clone-3327.netlify.app/
